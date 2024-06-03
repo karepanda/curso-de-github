@@ -1,6 +1,5 @@
-const saludar = () => {
-    return 'hola';
-}
-
-const texto = saludar();
-console.log(texto);
+const drawTotalCart = (cart) => {
+    const DOMCartTotal = document.getElementById("cart-total");
+    DOMCartTotal.innerHTML = '$${cart.total}'
+};
+console.log("hola bitch")
